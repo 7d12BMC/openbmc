@@ -6,7 +6,7 @@ PROVIDES += "virtual/kernel"
 
 KCONFIG_MODE="--alldefconfig"
 
-KSRC ?= "git://github.com/allegro0132/linux;protocol=https;branch=${KBRANCH}"
+KSRC ?= "git://github.com/7d12BMC/linux;protocol=https;branch=${KBRANCH}"
 SRC_URI = "${KSRC}"
 SRC_URI += " \
              file://defconfig \
